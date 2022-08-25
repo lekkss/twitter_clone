@@ -31,7 +31,7 @@ function App() {
           <div className=" w-[350px] fixed sidebar border-r-[1px] border-gray-200 bg-white top-0 ">
             <Sidebar />
           </div>
-          <div className="w-full ml-[350px]">
+          <div className=" ml-[350px]">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />

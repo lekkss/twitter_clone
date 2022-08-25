@@ -6,7 +6,7 @@ import { link } from "../data/datas";
 
 function Sidebar() {
   return (
-    <div className="max-w-xl overflow-y-auto-auto mt-5 mr-3 flex flex-col justify-between h-screen">
+    <div className="max-w-xl overflow-y-auto mt-5 mr-14 flex flex-col justify-between h-screen">
       <div className="flex flex-col mb-8">
         <div>
           <Link to="/" className="ml-[60px] ">

@@ -17,9 +17,9 @@ import Tweets from "../components/Tweets";
 function Home() {
   return (
     <div className="">
-      <div className="flex ">
-        <div className="border-r-[1px] relative border-gray-200 w-2/3">
-          <div className="flex sticky top-0 px-3 justify-between items-center h-16 pt-3">
+      <div className="flex relative flex-wrap">
+        <div className="border-r-[1px] border-gray-200 w-[60%]">
+          <div className="flex sticky top-0 px-3 bg-white justify-between items-center h-16 pt-3">
             <div className="font-bold text-xl">Home</div>
             <img src={newLogo} alt="" className="w-5 h-5" />
           </div>
@@ -124,10 +124,10 @@ function Home() {
               time="3"
               handle="lekkss"
               text="The DesignLab is doing major work on Community-Driven Design,
-          with several different variants. If you are working in this
-          area, submit a paper to the DIS conference here in San Diego
-          (see DesignLab posting below)....
-          https://facebook.com/don.norman.18/..."
+              with several different variants. If you are working in this
+              area, submit a paper to the DIS conference here in San Diego
+              (see DesignLab posting below)....
+              https://facebook.com/don.norman.18/..."
             />
             <Tweets
               name="Afolabi Segun"
@@ -135,10 +135,10 @@ function Home() {
               time="3"
               handle="lekkss"
               text="The DesignLab is doing major work on Community-Driven Design,
-        with several different variants. If you are working in this
-        area, submit a paper to the DIS conference here in San Diego
-        (see DesignLab posting below)....
-        https://facebook.com/don.norman.18/..."
+              with several different variants. If you are working in this
+              area, submit a paper to the DIS conference here in San Diego
+              (see DesignLab posting below)....
+              https://facebook.com/don.norman.18/..."
             />
             <Tweets
               name="Afolabi Segun"
@@ -146,10 +146,10 @@ function Home() {
               time="3"
               handle="lekkss"
               text="The DesignLab is doing major work on Community-Driven Design,
-      with several different variants. If you are working in this
-      area, submit a paper to the DIS conference here in San Diego
-      (see DesignLab posting below)....
-      https://facebook.com/don.norman.18/..."
+              with several different variants. If you are working in this
+              area, submit a paper to the DIS conference here in San Diego
+              (see DesignLab posting below)....
+              https://facebook.com/don.norman.18/..."
             />
             <Tweets
               name="Afolabi Segun"
@@ -157,22 +157,22 @@ function Home() {
               time="3"
               handle="lekkss"
               text="The DesignLab is doing major work on Community-Driven Design,
-    with several different variants. If you are working in this
-    area, submit a paper to the DIS conference here in San Diego
-    (see DesignLab posting below)....
-    https://facebook.com/don.norman.18/..."
+              with several different variants. If you are working in this
+              area, submit a paper to the DIS conference here in San Diego
+              (see DesignLab posting below)....
+              https://facebook.com/don.norman.18/..."
             />
           </div>
         </div>
         {/* Other Half */}
-        <div className="flex flex-col w-[30%] mx-2 mt-3 h-full">
+        <div className="md:flex flex-col mx-2 mt-3 h-full overflow-y-auto   hidden ">
           {/* Search */}
-          <div className="bg-red-400 w-full relative">
-            <div className="bg-gray-200 flex rounded-full h-11 items-center gap-2 px-2 mb-5 fixed">
-              <img src={search} alt="" className="h-[18px] w-[18px]" />
+          <div className="bg-red-400 h-fit fixed">
+            <div className="bg-gray-200 flex flex-wrap rounded-full h-11 items-center gap-2 px-2 mb-5 ">
+              <img src={search} alt="" className="h-[18px]" />
               <input
                 type=""
-                className="bg-transparent border-none rounded-r-full w-full h-full focus:outline-none"
+                className="bg-transparent border-none rounded-r-full  h-full focus:outline-none"
                 style={{}}
               />
             </div>
@@ -192,12 +192,32 @@ function Home() {
               tweets="22.3k"
               type="Trending"
             />
+
             <Trends
               category="Sports"
               main="penaldo"
               tweets="22.3k"
               type="Trending"
             />
+            <Trends
+              category="Sports"
+              main="penaldo"
+              tweets="22.3k"
+              type="Trending"
+            />
+            <Trends
+              category="Sports"
+              main="penaldo"
+              tweets="22.3k"
+              type="Trending"
+            />
+            <Trends
+              category="Sports"
+              main="penaldo"
+              tweets="22.3k"
+              type="Trending"
+            />
+
             <Trends
               category="Sports"
               main="penaldo"
